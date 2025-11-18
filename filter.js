@@ -1,6 +1,6 @@
 const toFilter = [3, 2, -9, null, '12','3a',[], undefined, '', 5]
 
-function filtrovane(arr = [], 'number') {
+function Filter(arr = [], 'number') {
     console.log(arr)
     const result  = []
     if(!Array.isArray(arr)) {
@@ -28,8 +28,8 @@ function filtrovane(arr = [], 'number') {
 
 console.log(parseInt("3a") == '3a')
 console.log(parseInt('30') == '30')
-console.log(filtrovane(toFilter))
-console.log("Макс, вогник в тт!!!!")
+console.log(Filter(toFilter))
+
 
 
 
