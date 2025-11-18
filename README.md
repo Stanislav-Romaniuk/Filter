@@ -1,9 +1,2 @@
-function filtrovane(arr = [], byType = 'number') {
-    console.log(arr)
-    const result  = []
-    if(!Array.isArray(arr)) {
-        return result;
-    }
-
-
-   !!! Дз: Другий параметр byType задає тип по якому фільтрувати.
+Функція filtrovane(arr, byType) фільтрує елементи масиву за вказаним типом.
+Тип за замовчуванням — "number".
